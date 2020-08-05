@@ -4,6 +4,6 @@ import { usersRoutes } from './users.routes'
 
 const routers = Router()
 
-routers.post('/users', usersRoutes)
+routers.use('/users', usersRoutes)
 
 export { routers }
